@@ -16,7 +16,7 @@ vim.g.loaded_netrwPlugin = 1
 -- Buffer Setting
 vim.keymap.set('n', '<S-l>', vim.cmd.bn, { desc = 'Next Buffer' })
 vim.keymap.set('n', '<S-h>', vim.cmd.bp, { desc = 'Previous Buffer' })
-vim.keymap.set('n', '<leader>bc', vim.cmd.close, { desc = 'Close Buffer' })
+vim.keymap.set('n', '<leader>bc', vim.cmd.bd, { desc = '[B]uffer [C]lose' })
 
 -- NOTE Folding Setting
 vim.o.foldcolumn = '1' -- '0' is not bad
